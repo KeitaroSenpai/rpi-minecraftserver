@@ -18,4 +18,4 @@ then
     echo "eula=true" > /data/eula.txt
 fi
 
-cd /data/; java -Xmx2G -jar minecraft_server.jar nogui
+cd /data/; java -Xms512M -Xmx1008M -jar minecraft_server.jar nogui
