@@ -1,3 +1,14 @@
 # rpi-minecraftserver
 
-Work in progress to have the latest version of Minecraft server available for Raspberry PI
+This build provides the latest Raspberry Pi server
+
+Current version : 1.12.2
+
+## How to start the latest version
+
+Simply start the container with :
+
+````
+docker run -d -p 25565:25565 --name minecraftserver bpstuder/rpi-minecraftserver:latest
+````
+
